@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <title>Kristi's App</title>
+
+  </head>
+  <body>
+        <div id="tabledemo">
+            <h1 class="title-center">Vue 3 Datatable Example - Kristi</h1>
+            Filter by anything: <input v-model="search">
+            <hr>
+            <data-table :comments="filteredComments"></data-table>
+        </div>
+    <script type="module" src="/src/main.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17-beta.0/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+
+  </body>
+</html>
